@@ -51,11 +51,14 @@
                      
                   
                 >
-                  <div class="text-sm leading-5 text-gray-900"
+                  <a class="text-sm leading-5 text-gray-900"
+                  target="_blank"
+                  :href="u.url"
                   >
                     {{ u.url }}
-                  </div>
+                  </a>
                 </td>
+                
                 
                 
                 <td
