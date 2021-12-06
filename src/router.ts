@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
 
-import Dashboard from "./views/Dashboard.vue";
+import Portfolio from "./views/Portfolio.vue";
 import Forms from "./views/Forms.vue";
 import Tables from "./views/Tables.vue";
 import UIElements from "./views/UIElements.vue";
@@ -18,9 +18,9 @@ const routes: RouteRecordRaw[] = [
     meta: { layout: "empty" },
   },
   {
-    path: "/dashboard",
-    name: "Dashboard",
-    component: Dashboard,
+    path: "/portfolio",
+    name: "Portfolio",
+    component: Portfolio,
   },
   {
     path: "/forms",
