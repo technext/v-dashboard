@@ -35,7 +35,7 @@
           </svg>
 
           <span class="mx-2 text-2xl font-semibold text-white"
-            >V-Dashboard</span
+            >포트폴리오</span
           >
         </div>
       </div>
@@ -43,7 +43,31 @@
       <nav class="mt-10">
         <router-link
           class="flex items-center px-6 py-2 mt-4 duration-200 border-l-4"
-          :class="[$route.name === 'Dashboard' ? activeClass : inactiveClass]"
+          :class="[$route.name === 'portfolio' ? activeClass : inactiveClass]"
+          to="/portfolio"
+        >
+          <svg
+            class="w-5 h-5"
+            viewBox="0 0 20 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M2 10C2 5.58172 5.58172 2 10 2V10H18C18 14.4183 14.4183 18 10 18C5.58172 18 2 14.4183 2 10Z"
+              fill="currentColor"
+            />
+            <path
+              d="M12 2.25195C14.8113 2.97552 17.0245 5.18877 17.748 8.00004H12V2.25195Z"
+              fill="currentColor"
+            />
+          </svg>
+
+          <span class="mx-4">1반</span>
+        </router-link>
+
+        <router-link
+          class="flex items-center px-6 py-2 mt-4 duration-200 border-l-4"
+          :class="[$route.name === 'Class2' ? activeClass : inactiveClass]"
           to="/dashboard"
         >
           <svg
@@ -62,7 +86,55 @@
             />
           </svg>
 
-          <span class="mx-4">Dashboard</span>
+          <span class="mx-4">2반</span>
+        </router-link>
+
+        <router-link
+          class="flex items-center px-6 py-2 mt-4 duration-200 border-l-4"
+          :class="[$route.name === 'Class3' ? activeClass : inactiveClass]"
+          to="/dashboard"
+        >
+          <svg
+            class="w-5 h-5"
+            viewBox="0 0 20 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M2 10C2 5.58172 5.58172 2 10 2V10H18C18 14.4183 14.4183 18 10 18C5.58172 18 2 14.4183 2 10Z"
+              fill="currentColor"
+            />
+            <path
+              d="M12 2.25195C14.8113 2.97552 17.0245 5.18877 17.748 8.00004H12V2.25195Z"
+              fill="currentColor"
+            />
+          </svg>
+
+          <span class="mx-4">3반</span>
+        </router-link>
+
+        <router-link
+          class="flex items-center px-6 py-2 mt-4 duration-200 border-l-4"
+          :class="[$route.name === 'Class4' ? activeClass : inactiveClass]"
+          to="/dashboard"
+        >
+          <svg
+            class="w-5 h-5"
+            viewBox="0 0 20 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M2 10C2 5.58172 5.58172 2 10 2V10H18C18 14.4183 14.4183 18 10 18C5.58172 18 2 14.4183 2 10Z"
+              fill="currentColor"
+            />
+            <path
+              d="M12 2.25195C14.8113 2.97552 17.0245 5.18877 17.748 8.00004H12V2.25195Z"
+              fill="currentColor"
+            />
+          </svg>
+
+          <span class="mx-4">4반</span>
         </router-link>
 
         <router-link
